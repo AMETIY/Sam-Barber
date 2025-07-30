@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import hero1 from "../assets/hero/Hero_bg.jpg";
 import hero2 from "../assets/hero/hero_try.jpg";
 import {
@@ -9,6 +9,15 @@ import {
 import { GiScissors } from "react-icons/gi";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./Hero.css";
+
+// Preload critical images
+const preloadImages = () => {
+  const images = [hero1, hero2];
+  images.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+};
 
 const slides = [
   {
@@ -47,20 +56,27 @@ const fontFamily = `'Oswald', 'Montserrat', 'Poppins', Arial, sans-serif`;
 
 const Hero = () => {
   const [current, setCurrent] = useState(0);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
   const slide = slides[current];
-  
+
+  // Preload images on component mount
+  useEffect(() => {
+    preloadImages();
+    setImagesLoaded(true);
+  }, []);
+
   // Smooth scroll to appointment section
   const scrollToAppointment = (e) => {
     e.preventDefault();
-    const appointmentSection = document.getElementById('appointment');
+    const appointmentSection = document.getElementById("appointment");
     if (appointmentSection) {
-      appointmentSection.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
+      appointmentSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
       });
     }
   };
-  
+
   // For optional auto-play on desktop
   React.useEffect(() => {
     const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
@@ -90,15 +106,18 @@ const Hero = () => {
         justifyContent: "center",
       }}
     >
-      {/* Background Image */}
+      {/* Background Image with loading optimization */}
       <div
         style={{
           position: "absolute",
           inset: 0,
-          background: `url(${slide.bg}) center center/cover no-repeat`,
+          background: imagesLoaded
+            ? `url(${slide.bg}) center center/cover no-repeat`
+            : "linear-gradient(45deg, #181818, #2a2a2a)",
           zIndex: 1,
           width: "100%",
           height: "100%",
+          transition: "background 0.5s ease-in-out",
         }}
       />
       {/* Overlay */}

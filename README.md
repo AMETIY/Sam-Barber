@@ -7,6 +7,7 @@ A modern, responsive barber shop website built with **React**, **Vite**, and **E
 🌐 **Live Website:** [https://samd-barber.vercel.app/](https://samd-barber.vercel.app/)
 
 **Experience the full barber shop website with:**
+
 - ✂️ Professional barbering services
 - 📧 Working appointment booking system
 - 🎨 Modern, responsive design
@@ -357,4 +358,4 @@ For support or questions:
 
 ---
 
-**Built with ❤️ for modern barber shops**
+**Built with ❤️ for SamD**
