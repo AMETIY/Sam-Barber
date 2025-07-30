@@ -216,7 +216,7 @@ const Services = () => (
             textShadow: "0 2px 16px rgba(0,0,0,0.18)",
           }}
         >
-          OUR SERVICES
+          PREMIUM BARBERING SERVICES
         </h2>
         <p
           style={{
@@ -228,8 +228,8 @@ const Services = () => (
           }}
         >
           Experience top-notch grooming and haircare in a modern, welcoming
-          environment. Our skilled barbers offer classic haircuts, beard trims,
-          and personalized styling to help you look and feel your best.
+          environment. We offer classic haircuts, beard trims, and personalized
+          styling to help you look and feel your best.
         </p>
       </div>
       <div className="services-grid">

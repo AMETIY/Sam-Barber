@@ -50,7 +50,7 @@ const Gallery = () => {
               textShadow: "0 2px 16px rgba(0,0,0,0.08)",
             }}
           >
-            GALLERY
+            OUR PORTFOLIO
           </h2>
           <p
             style={{
@@ -61,7 +61,7 @@ const Gallery = () => {
               fontWeight: 400,
             }}
           >
-            Explore our work and studio atmosphere.
+            Discover our craftsmanship through stunning transformations and behind-the-scenes moments.
           </p>
         </div>
         <div

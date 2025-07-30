@@ -109,7 +109,7 @@ const Pricing = () => {
               textShadow: "0 2px 16px rgba(0,0,0,0.18)",
             }}
           >
-            PRICING
+            VALUE PACKAGES
           </h2>
           <p
             style={{
@@ -120,9 +120,9 @@ const Pricing = () => {
               fontWeight: 400,
             }}
           >
-            Choose the perfect package for your grooming needs. All services are
-            performed by our expert barbers with premium quality and attention
-            to detail.
+            Discover our curated packages designed to deliver exceptional value.
+            Each tier combines our most popular services with expert
+            craftsmanship, ensuring you get the perfect look at the best price.
           </p>
         </div>
         <div
@@ -147,13 +147,13 @@ const Pricing = () => {
                   boxShadow: isSelected
                     ? `0 8px 32px 0 ${gold}66, 0 2px 16px 0 rgba(0,0,0,0.10)`
                     : plan.featured
-                    ? `0 8px 32px 0 ${gold}33`
-                    : "0 2px 16px 0 rgba(0,0,0,0.07)",
+                      ? `0 8px 32px 0 ${gold}33`
+                      : "0 2px 16px 0 rgba(0,0,0,0.07)",
                   border: isSelected
                     ? `3.5px solid ${gold}`
                     : plan.featured
-                    ? `2.5px solid ${gold}`
-                    : "2px solid #eee",
+                      ? `2.5px solid ${gold}`
+                      : "2px solid #eee",
                   minWidth: 280,
                   maxWidth: 340,
                   flex: "1 1 300px",
@@ -165,8 +165,8 @@ const Pricing = () => {
                   transform: isSelected
                     ? "scale(1.08)"
                     : plan.featured
-                    ? "scale(1.06)"
-                    : "none",
+                      ? "scale(1.06)"
+                      : "none",
                   cursor: "pointer",
                   outline: isSelected ? `2.5px solid ${gold}` : "none",
                 }}

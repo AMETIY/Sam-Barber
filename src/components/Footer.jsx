@@ -39,29 +39,26 @@ const Footer = () => (
         color: #fff;
         transform: scale(1.18);
       }
-      .footer-copyright {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        color: ${gold};
-        font-size: 1.08rem;
-        font-weight: 500;
-        letter-spacing: 1.2px;
-        pointer-events: none;
-        user-select: none;
-        font-family: inherit;
-      }
     `}</style>
-    {/* Copyright center */}
-    <div className="footer-copyright">
-      &copy; {new Date().getFullYear()} AW. All rights reserved.
+    {/* Copyright left */}
+    <div
+      style={{
+        color: gold,
+        fontSize: "1.08rem",
+        fontWeight: 500,
+        letterSpacing: "1.2px",
+        marginLeft: 36,
+      }}
+    >
+      &copy; {new Date().getFullYear()} Modern Barber Shop. Crafting Excellence
+      Since 2019.
     </div>
     <div
       style={{
         display: "flex",
         gap: 18,
         alignItems: "center",
+        marginLeft: "auto",
         marginRight: 36,
       }}
     >

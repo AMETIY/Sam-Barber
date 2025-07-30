@@ -9,24 +9,24 @@ const gold = "#D19D64";
 const testimonials = [
   {
     img: client1,
-    name: "John Doe",
+    name: "Amanuel Wubneh",
     role: "Regular Client",
     quote:
-      "Absolutely the best barbershop experience I've ever had. Friendly staff and top-notch service!",
+      "The attention to detail here is incredible. Every haircut feels like a work of art. The barbers truly understand what makes a great cut and always deliver beyond expectations.",
   },
   {
     img: client2,
     name: "Sarah Smith",
     role: "First Timer",
     quote:
-      "I was nervous about trying a new place, but they made me feel right at home. Love my new look!",
+      "I was hesitant about trying a new barbershop, but the moment I walked in, I felt welcomed. The consultation was thorough, and the result exceeded my expectations. I'm definitely coming back!",
   },
   {
     img: client3,
     name: "Mike Johnson",
     role: "Beard Enthusiast",
     quote:
-      "Their beard grooming is on another level. Highly recommend for anyone serious about their style!",
+      "Their beard grooming expertise is unmatched. They understand the art of shaping and styling facial hair like no one else. My beard has never looked better!",
   },
 ];
 
@@ -113,7 +113,7 @@ const Testimonials = () => {
                 "'Oswald', 'Montserrat', 'Poppins', Arial, sans-serif",
             }}
           >
-            TESTIMONIALS
+            CLIENT STORIES
           </h2>
           <p
             style={{
@@ -124,7 +124,7 @@ const Testimonials = () => {
               fontWeight: 400,
             }}
           >
-            What our clients say about us
+            Real experiences from our valued clients
           </p>
         </div>
         <div

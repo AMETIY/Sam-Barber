@@ -128,7 +128,7 @@ const About = () => (
             textShadow: "0 2px 16px rgba(0,0,0,0.18)",
           }}
         >
-          About Our Barber Studio
+          Crafting Excellence Since 2019
         </h2>
         <h3
           style={{
@@ -140,7 +140,7 @@ const About = () => (
             fontFamily,
           }}
         >
-          7+ Years of Experience in Hair & Style
+          Where Tradition Meets Modern Innovation
         </h3>
         <div
           style={{
@@ -162,10 +162,7 @@ const About = () => (
             fontFamily,
           }}
         >
-          I offer professional haircuts, shaves, and grooming services in a
-          modern, welcoming environment. I am dedicated
-          to providing you with the best look and experience every time you
-          visit.
+          Step into a world where every haircut is a masterpiece. Our skilled barbers blend time-honored techniques with contemporary trends, creating signature styles that reflect your personality. From classic fades to modern undercuts, we transform your vision into reality with precision and artistry.
         </p>
       </div>
     </div>

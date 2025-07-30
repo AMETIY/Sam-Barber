@@ -65,7 +65,7 @@ const Contact = () => (
           fontFamily: "'Oswald', 'Montserrat', 'Poppins', Arial, sans-serif",
         }}
       >
-        CONTACT US
+        GET IN TOUCH
       </h2>
       <div style={{ marginTop: 18 }}>
         <GiScissors size={38} color={gold} style={{ margin: "0 8px" }} />

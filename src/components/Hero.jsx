@@ -13,18 +13,18 @@ import "./Hero.css";
 const slides = [
   {
     bg: hero1,
-    top: "WE ARE UNIQUE",
-    title: "BARBER SHOP",
+    top: "PREMIUM BARBERING",
+    title: "EXPERIENCE",
     subtitle:
-      "The best place for your hairstyle. Lorem Ipsum is simply dummy text.",
+      "Where tradition meets modern style. Expert barbers crafting your perfect look with precision cuts, classic techniques, and contemporary trends.",
   },
   {
     bg: hero2,
-    top: "WE MAKE YOUR HAIR",
-    title: "ACHIEVE STYLE",
+    top: "CRAFTING YOUR",
+    title: "SIGNATURE STYLE",
     subtitle:
-      "The best place for your hairstyle. Lorem Ipsum is simply dummy text.",
-  }
+      "From classic cuts to modern fades, we transform your vision into reality. Every haircut tells your story with professional expertise and attention to detail.",
+  },
 ];
 
 const infoBar = [
