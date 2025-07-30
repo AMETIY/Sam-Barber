@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     img: client2,
-    name: "Sarah Smith",
+    name: "Samuel",
     role: "First Timer",
     quote:
       "I was hesitant about trying a new barbershop, but the moment I walked in, I felt welcomed. The consultation was thorough, and the result exceeded my expectations. I'm definitely coming back!",

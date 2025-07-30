@@ -48,6 +48,19 @@ const fontFamily = `'Oswald', 'Montserrat', 'Poppins', Arial, sans-serif`;
 const Hero = () => {
   const [current, setCurrent] = useState(0);
   const slide = slides[current];
+  
+  // Smooth scroll to appointment section
+  const scrollToAppointment = (e) => {
+    e.preventDefault();
+    const appointmentSection = document.getElementById('appointment');
+    if (appointmentSection) {
+      appointmentSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+  
   // For optional auto-play on desktop
   React.useEffect(() => {
     const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
@@ -264,6 +277,7 @@ const Hero = () => {
         >
           <a
             href="#appointment"
+            onClick={scrollToAppointment}
             style={{
               background: gold,
               color: "#222",

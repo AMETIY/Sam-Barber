@@ -162,7 +162,11 @@ const About = () => (
             fontFamily,
           }}
         >
-          Step into a world where every haircut is a masterpiece. Our skilled barbers blend time-honored techniques with contemporary trends, creating signature styles that reflect your personality. From classic fades to modern undercuts, we transform your vision into reality with precision and artistry.
+          Step into a world where every haircut is a masterpiece. Our skilled
+          barbers blend time-honored techniques with contemporary trends,
+          creating signature styles that reflect your personality. From classic
+          fades to modern undercuts, we transform your vision into reality with
+          precision and artistry.
         </p>
       </div>
     </div>
