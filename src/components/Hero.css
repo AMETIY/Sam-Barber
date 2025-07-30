@@ -1,0 +1,104 @@
+.carousel-arrow-btn-desktop {
+  display: none;
+}
+.carousel-indicators-desktop {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .carousel-arrow-btn-desktop {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .carousel-arrow-btn-desktop.left {
+    left: 32px;
+  }
+  .carousel-arrow-btn-desktop.right {
+    right: 32px;
+  }
+  .carousel-arrow-btn-desktop:hover {
+    background: #D19D64;
+  }
+  .carousel-arrow-icon-desktop {
+    color: #fff;
+    font-size: 2rem;
+    transition: color 0.2s;
+  }
+  .carousel-arrow-btn-desktop:hover .carousel-arrow-icon-desktop {
+    color: #222;
+  }
+  .carousel-indicators-desktop {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .carousel-dot-desktop {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: background 0.2s, opacity 0.2s;
+    border: 2px solid #D19D64;
+  }
+  .carousel-dot-desktop.active {
+    background: #D19D64;
+    opacity: 1;
+  }
+  /* Hide mobile arrows on desktop */
+  .slide-title-arrows-mobile {
+    display: none !important;
+  }
+}
+@media (max-width: 1023px) {
+  /* Hide desktop arrows/indicators on mobile */
+  .carousel-arrow-btn-desktop,
+  .carousel-indicators-desktop {
+    display: none !important;
+  }
+  .slide-title-arrows-mobile {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .carousel-arrow-btn-mobile {
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .carousel-arrow-btn-mobile:hover {
+    background: #D19D64;
+  }
+  .carousel-arrow-icon-mobile {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.2s;
+  }
+  .carousel-arrow-btn-mobile:hover .carousel-arrow-icon-mobile {
+    color: #222;
+  }
+} 
