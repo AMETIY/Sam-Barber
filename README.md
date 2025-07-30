@@ -4,7 +4,13 @@ A modern, responsive barber shop website built with **React**, **Vite**, and **E
 
 ## 🚀 **Live Demo**
 
-[Coming Soon - Deploy to Vercel]
+🌐 **Live Website:** [https://samd-barber.vercel.app/](https://samd-barber.vercel.app/)
+
+**Experience the full barber shop website with:**
+- ✂️ Professional barbering services
+- 📧 Working appointment booking system
+- 🎨 Modern, responsive design
+- 📱 Mobile-optimized experience
 
 ## ✨ **Features**
 
@@ -338,9 +344,9 @@ This project is licensed under the MIT License.
 
 For support or questions:
 
-- **Email**: your@email.com
-- **Phone**: +1-XXX-XXX-XXXX
-- **Website**: [your-website.com](https://your-website.com)
+- **Email**amanuelaraya908@gmail.com
+- **Phone**: +1-587-707-6257
+- **Website**: [your-website.com](https://www.amanuelwubneh.com/)
 
 ## 🎉 **Acknowledgments**
 
