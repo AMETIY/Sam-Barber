@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import gallery1 from "../assets/gallery/gallery1.png";
-import gallery2 from "../assets/gallery/gallery2.png";
-import gallery3 from "../assets/gallery/gallery3.png";
+import gallery2 from "../assets/gallery/ShowCase.jpg";
+import gallery3 from "../assets/gallery/ShowCase2.jpg";
 import gallery4 from "../assets/mine/use/try_3.jpg";
-// import gallery5 from "../assets/gallery/gallery5.png";
 import homeBlog1 from "../assets/mine/use/try_2.jpg";
 import homeBlog2 from "../assets/mine/use/try.jpg";
 

@@ -1,11 +1,17 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const gold = "#D19D64";
 const socialLinks = [
-  { icon: <FaFacebook />, url: "#" },
-  { icon: <FaInstagram />, url: "#" },
-  { icon: <FaTwitter />, url: "#" },
+  {
+    icon: <FaFacebook />,
+    url: "https://www.facebook.com/share/18GMZ6NWoj/?mibextid=wwXIfr",
+  },
+  {
+    icon: <FaInstagram />,
+    url: "https://www.instagram.com/samdbarberstudio/profilecard/?igsh=MTVhdXJlbmNyOHltYg==",
+  },
+  { icon: <FaTiktok />, url: "https://www.tiktok.com/@samdbarberstudio?_t=ZS-8yT9I8zTGew&_r=1" },
 ];
 
 const Footer = () => (
