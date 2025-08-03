@@ -46,7 +46,7 @@ const Appointment = () => {
       // EmailJS configuration
       const templateParams = {
         to_name: "Barber Shop",
-        to_email: "biniyamtedla30@gmail.com", // Send to your email
+        to_email: "samddsquare@gmail.com",
         from_name: e.target.name.value,
         from_email: e.target.email.value,
         phone: e.target.phone.value,

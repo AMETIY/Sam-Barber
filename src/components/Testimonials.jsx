@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import bgImg from "../assets/testimonial-bg.jpg";
 import client1 from "../assets/gallery/home-blog1.png";
 import client2 from "../assets/gallery/home-blog2.png";
-import client3 from "../assets/gallery/gallery1.png";
+import client3 from "../assets/gallery/gallery4.png";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const gold = "#D19D64";

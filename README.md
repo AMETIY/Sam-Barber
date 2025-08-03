@@ -370,7 +370,7 @@ This project is licensed under the MIT License.
 
 For support or questions:
 
-- **Email**amanuelaraya908@gmail.com
+- **Email**: amanuelaraya908@gmail.com
 - **Phone**: +1-587-707-6257
 - **Website**: [amanuelwubneh](https://www.amanuelwubneh.com/)
 

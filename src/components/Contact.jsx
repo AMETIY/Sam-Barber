@@ -16,22 +16,22 @@ const contactInfo = [
   {
     icon: <FaMapMarkerAlt color={gold} size={22} />,
     label: "Address",
-    value: "26 Avenue, Broklin, NJ-56870",
+    value: "1181 11 Ave SW, Calgary, AB T2R 1KG",
     type: "address",
   },
   {
     icon: <FaPhoneAlt color={gold} size={22} />,
     label: "Phone",
-    value: "+1 987-654-3210",
+    value: "+1 587-917-8258",
     type: "phone",
     link: "tel:+19876543210",
   },
   {
     icon: <FaEnvelope color={gold} size={22} />,
     label: "Email",
-    value: "info@barber.com",
+    value: "samddsquare@gmail.com",
     type: "email",
-    link: "mailto:info@barber.com",
+    link: "mailto:samddsquare@gmail.com",
   },
 ];
 
